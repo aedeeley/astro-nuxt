@@ -1,0 +1,29 @@
+{
+  "name": "astro-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "aedeeley <aedeeley@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "dev": "^0.1.3",
+    "nuxt": "^2.0.0",
+    "tilt.js": "^1.2.1",
+    "universal-analytics": "^0.4.20"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
